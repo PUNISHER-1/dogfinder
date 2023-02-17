@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap");
+body{
+    font-family: "Montserrat";
+}
+
+/* navigation bar */
+#container-fluid-1{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+    padding-bottom: 15%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    color: whitesmoke;
+    font-family: "Ubuntu";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.nav-link{
+    font-family: "Ubuntu";
+    font-size: 1.2rem;
+    padding: 0%, 15%;
+    font-weight: 100;
+}
+
+/* title and download buttons */
+.down-button{
+    margin-top: 5%;
+}
+h1{
+    font-family: 'Montserrat';
+    font-size: 3.9rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+}
+.tit-img{
+    width: 55%;
+    transform: rotate(30deg);
+    margin-left: 50px;
+    position: absolute;
+    right: 25%;
+}
+.tit-img-container{position: relative;}
+#title{
+    background-color: #ff4c68;
+}
+
+/* features */
+#features{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+.feat-tit{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.feat-text{
+    padding: 0% 5%;
+}
+p{color: #8f8f8f;}
+
+.feat-icon {
+    display: inline-block;
+    font-size: 80px;
+    color: #ef8172;
+}
+.feat-icon > .bi + .bi,
+.feat-icon:hover > .bi {
+  display: none;
+}
+.feat-icon:hover > .bi + .bi {
+  display: inherit;
+  color: #ff4c68;
+}
+
+/* testimonials*/
+#testimonials{
+    background-color: #ef8172;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 6%;
+    padding-bottom: 3%;
+    padding-left: 7%;
+    padding-right: 7%;
+    /* padding: 4% 7% 4% 19%; */
+}
+.test-text{
+    font-size: 3rem;
+    font-weight: 700;
+    padding-bottom: 3%;
+    line-height: 1.5;
+}
+.test-img{
+    border-radius: 100%;
+    width: 20%;
+    margin: 20px;
+}
+.carousel-item{height: 650px;}
+.test-text1{color: whitesmoke;}
+
+/* press */
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.press-img{
+    width: 15%;
+    padding: 2%;
+}
+
+/* pricing */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.p-btn{padding-bottom: 25px;}
+.p-color{color: black;}
+.p-col{padding: 3% 2%;}
+
+/* Call to Action */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+
+}
+.ctah3{
+    font-family: 'Montserrat';
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: white;
+    padding-bottom: 50px;
+
+}
+.cta-button{
+    margin-top: 0;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding-top: 50px;
+}
+.f-icon{
+    padding: 0.7%;
+}
+
+@media (max-width: 1210px) {
+    #container-fluid-1{
+        text-align: center;
+    }
+    .tit-img{
+        position: static;
+        transform: rotate(0);
+        width: 70%;
+    }
+    
+}
+@media (max-width: 990px) {
+    .tit-img{
+        position: static;
+        transform: rotate(0);
+        width: 55%;
+        padding-top: 9%;
+    }    
+}
+@media (max-width: 515px) {
+    .feat-text{size: small;}
+}
